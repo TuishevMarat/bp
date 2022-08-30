@@ -7,6 +7,7 @@ const Navbar = () => {
       <h1>Navbar</h1>
       <Link to='/home'>Домашняя страница</Link>
       <Link to='/about'> О сайте</Link>
+      <Link to='/photo'> Фото</Link>
     </div>
   );
 };

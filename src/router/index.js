@@ -3,6 +3,7 @@
 
 import About from '../pages/About';
 import Home from '../pages/Home';
+import Photo from '../pages/Photo';
 
 // export const privateRoutes = [
 //   { path: '/', element: <Login /> },
@@ -16,4 +17,5 @@ export const publicRoutes = [
   { path: '*', element: <Home /> },
   { path: '/home', element: <Home /> },
   { path: '/about', element: <About /> },
+  { path: '/photo', element: <Photo /> },
 ];
